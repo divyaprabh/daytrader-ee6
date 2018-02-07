@@ -22,7 +22,7 @@ pipeline {
  /Applications/apache-maven-3.5.2/bin/mvn clean install
  # build EAR, create Liberty server, run tests
  cd ../daytrader-ee6
- /Applications/apache-maven-3.5.2/bin/mvn clean verify –Pci-liberty
+ /Applications/apache-maven-3.5.2/bin/mvn clean verify -Pci-liberty
  cd ..
  '''
  }
